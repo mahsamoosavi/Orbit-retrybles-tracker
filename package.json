@@ -29,7 +29,6 @@
   "scripts": {
     "lint": "eslint .",
     "format": "prettier './**/*.{js,json,md,yml,sol,ts}' --write && yarn run lint --fix",
-    "build": "yarn tsc",
-    "failed_autoredeems": "ts-node ./lib/failed_autoredeems.ts"
+    "findRetryables": "ts-node ./lib/find_retryables.ts"
   }
 }
