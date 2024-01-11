@@ -2,7 +2,6 @@ import { providers } from 'ethers'
 import { Provider } from '@ethersproject/abstract-provider'
 import { BlockTag } from '@ethersproject/abstract-provider'
 require('dotenv').config()
-import yargs from 'yargs/yargs'
 
 import {
   EventFetcher,
